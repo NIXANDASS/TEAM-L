@@ -8,7 +8,7 @@ An input string is valid if:
     Open brackets must be closed in the correct order.
     Every close bracket has a corresponding open bracket of the same type.
 
-## Examples:
+### TEST CASE:
 
 Examples1:
 
@@ -36,46 +36,50 @@ Output: true
 
  
 
-Constraints:
+### Constraints:
 
     1 <= s.length <= 104
     s consists of parentheses only '()[]{}'.
 
+
+## Program:
+
 '''
 import java.util.Stack;
-
 class Solution {
     public boolean isValid(String s) {
-        int length = s.length();
-    
-        if (length == 1) return false;
-
-        Stack <Character> mystack = new Stack<>();
+        int lenStr = s.length();
+        Stack<Character> mystack = new Stack<>();
+        char brac;
         char top;
-        for (int i = 0 ; i < length; i++){
-            char brac = s.charAt(i);
-            if (brac == '(' || brac =='[' || brac =='{'){
+
+        for (int i = 0 ; i < lenStr ; i++){
+            brac = s.charAt(i);
+            if (brac == '(' || brac== '[' || brac == '{'){
                 mystack.push(brac);
             }
-
             else{
-                if (!mystack.isEmpty()){
+                if (! mystack.isEmpty()){
                     top = mystack.peek();
-                    if ((brac == ')' && top =='(') || (brac == ']' && top =='[')||(brac == '}' && top =='{')){
+                    if ((brac == ')' && top == '(' ) || (brac == ']' && top == '[') || (brac== '}' && top == '{' )){
                         mystack.pop();
                     }
                     else return false;
-                }else  return false;
-                
+                }
+                else return false;
+
             }
-            
+
+           
         }
 
-        return true;
-
+        return mystack.isEmpty();
     }
 }
 
 ```
+
+## OUTPUT :
+![Uploading image.png…]()
 
 
