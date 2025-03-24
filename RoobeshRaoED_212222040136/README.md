@@ -1,4 +1,4 @@
-### Find First and Last Position of Element in Sorted Array:
+# Find First and Last Position of Element in Sorted Array:
 
 Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target value.
 
@@ -21,7 +21,7 @@ Example 3:
 Input: nums = [], target = 0
 Output: [-1,-1]
 
-### PROGRAM:
+# PROGRAM:
 ```
 
 class Solution {
