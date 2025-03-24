@@ -47,3 +47,7 @@ class Solution {
     }
 }
 ```
+
+
+![image](https://github.com/user-attachments/assets/b65e14ef-cb86-45cb-88cd-cfba5e5d85cb)
+
