@@ -67,6 +67,9 @@ class Solution:
 
 ```
 
-# OUTPUT :
+# OUTPUT:
+
+
+
 
 
