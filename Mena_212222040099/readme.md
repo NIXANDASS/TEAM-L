@@ -83,5 +83,6 @@ class Solution {
 
 ## OUTPUT :
 
+![image](https://github.com/user-attachments/assets/03346bb8-4861-4149-930b-b8fb47dc4871)
 
 
