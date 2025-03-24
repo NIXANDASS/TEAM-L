@@ -69,7 +69,7 @@ class Solution:
 
 # OUTPUT:
 
-
+![Screenshot from 2025-03-24 14-59-32](https://github.com/user-attachments/assets/d00fcd9c-c0a9-41db-9dcd-5cb389757fc1)
 
 
 
