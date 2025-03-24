@@ -82,7 +82,7 @@ class Solution {
 ```
 
 ## OUTPUT :
+![image](https://github.com/user-attachments/assets/f4941731-f831-4f22-8449-33cf794cf42a)
 
-![image](https://github.com/user-attachments/assets/03346bb8-4861-4149-930b-b8fb47dc4871)
 
 
