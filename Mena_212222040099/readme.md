@@ -44,7 +44,8 @@ Output: true
 
 ## Program:
 
-'''
+```
+
 import java.util.Stack;
 class Solution {
     public boolean isValid(String s) {
@@ -77,9 +78,10 @@ class Solution {
     }
 }
 
+
 ```
 
 ## OUTPUT :
-![Uploading image.png…]()
+
 
 
